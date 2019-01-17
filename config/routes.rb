@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :portfolios
   get 'pages/Coldmusic'
   get 'pages/About'
   get 'pages/contact'
