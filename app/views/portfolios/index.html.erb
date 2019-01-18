@@ -1,8 +1,9 @@
-<h1> Artis Roster Data</h1>
+<center><h2> Cold Music Group <br>
+Artist Roster Data</h2>
 
 <% @portfolio_items.each do |portfolio_item|%>
   <p><%= portfolio_item.title %></p>
   <p><%= portfolio_item.subtitle %></p>
   <p><%= portfolio_item.body %></p>
   <%= image_tag portfolio_item.thumb_image %>
-<% end %>
+<% end %></center>

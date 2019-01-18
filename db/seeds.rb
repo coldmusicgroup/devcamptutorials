@@ -26,7 +26,7 @@ puts "5 skills posts created"
     subtitle: "My Great Artist",
     body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
     main_image: "https://place-hold.it/600x400/red/white&text=ruby%20on%20rails",
-    thumb_image: "https://place-hold.it/350x200/red/white&text=ruby-rails",
+    thumb_image: "https://place-hold.it/350x200/red/yellow&text=Cold-Music-Group-Artist-Photo",
   )
 end
 puts "9 portolio posts created"
