@@ -8,5 +8,5 @@ Artist Roster Data</h2>
   <%= image_tag portfolio_item.thumb_image unless portfolio_item.thumb_image.nil? %>
 <hr align = center size = 7 width = 650>
 <%= link_to "Edit", edit_portfolio_path(portfolio_item.id)%>
-
+<%= link_to 'Erase Artis Profile', portfolio_path(portfolio_item), method: :delete, data: { confirm: 'Are you sure?' } %>
 <% end %></center>
